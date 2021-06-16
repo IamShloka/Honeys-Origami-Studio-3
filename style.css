@@ -1,0 +1,51 @@
+h1 {
+    font-family:'Franklin Gothic small', 'Arial Narrow', sans-serif 'Arial Narrow', Arial, sans-serif;
+    color : white ;
+}
+h2{
+    color : white;
+}
+h3{
+    color: white;
+}
+.img1 {
+    border : solid;
+    border-color: olivedrab;
+  
+    border-width: 14px;
+   
+}
+.img2 {
+    border : solid;
+    border-color: olivedrab;
+ 
+    border-width: 14px;
+    
+}
+
+.grid{
+    background-color:darkolivegreen;
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content : space-evenly;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.header{
+    background-color: rgb(111, 141, 60);
+    display: flex;
+    border : solid;
+    border-color: rgb(189, 206, 156);
+    border-width: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
